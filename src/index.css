@@ -1,13 +1,146 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.logo img{
+  width: 90px;
+  object-position: left;
+}
+.logocern img{
+  width: 90px;
+  object-position: left;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.336);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width:100%;
+  height: 87px;
+  z-index: 1;
+  background-color: #0f0f0f;
+  }
+  nav ul{
+  display: flex;
+  }
+  .active{
+    background-color: #fafafa;
+    color:#000000;
+  box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.411);
+  transition: all ease 0.2s;
+  }
+  nav ul li a{
+    font-family: 'Raleway', sans-serif;
+  height:40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 1rem;
+  /* text-transform: uppercase; */
+  font-weight: 500;
+  color:#ffffff;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+  }
+
+  nav ul li a:hover{
+    background-color: #00a2ff;
+      color:#000000;
+    box-shadow: 5px 10px 30px rgba(189, 198, 64, 0.411);
+    transition: all ease 0.2s;
+    }
+    nav .menu-btn,
+    .menu-icon{
+      display:none;
+    }
+
+
+
+.title {
+  position: absolute; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.title h1{
+  font-family: 'Raleway', sans-serif;
+  font-style: bold;
+  position: absolute;
+  top: 50px;
+  font-size: 60px;
+  /* margin:500px; */
+  letter-spacing: 3px;
+  color:#000000;
+  /* z-index: 1; */
+  }
+
+.title .bg {    
+      content: "";
+      background-image: url('./images/cms-image.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      /* bottom: 500px; */
+      opacity: 0.3;
+      z-index: -1;
+}
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Josefin Sans', cursive; */
+}
+
+
+.section {
+  position: relative;
+  top: 200px;
+  z-index: 1;
+}
+
+.section h1{
+  font-family: 'Raleway';
+  font-size: 48px;
+  position: relative;
+  text-align: center;
+}
+
+
+.section div{
+  text-align: center;
+}
+
+
+.boxed {
+  position: relative;
+  border:2px solid #000000;
+  background-color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  border-radius: 0.2cm;
+  height: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.boxed img{
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+
+.boxed p{
+  font-family: "Raleway";
+  font-size: 20px;
+  display: inline;
+  align-self: flex-start;
 }
