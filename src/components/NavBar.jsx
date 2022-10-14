@@ -2,7 +2,8 @@ import React from 'react';
 import {Link} from 'react-scroll';
 import cmslogo from '../images/cms-logo.png';
 import cernlogo from '../images/cern-logo.png';
-// import React, { useRef } from 'react'
+import bmbf from '../images/BMBF.png'
+import rwth from '../images/rwth_logo.png'
 
 function NavBar() {
   return (
@@ -11,11 +12,14 @@ function NavBar() {
             <Link to='main' className='logo'>
                  <img src={cmslogo} alt='logo'></img>
                  <img src={cernlogo} alt='logo2'></img>
+                 <img src={bmbf} alt=''></img>
+                 <img src={rwth} alt=''></img>
             </Link>
             <input className='menu-btn' type='checkbox' id='menu-btn'></input>
             <label className='menu-icon' for='menu-btn'>
                 <span className='nav-icon'></span>
             </label>
+            
             <ul className='menu'>
                 <li>
                     <Link to='introduction' offset={-100} className='active'>Introduction</Link>
