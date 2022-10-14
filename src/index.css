@@ -28,7 +28,8 @@ nav{
     background-color: #fafafa;
     color:#000000;
   box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.411);
-  transition: all ease 0.2s;
+  transition: all ease 1s;
+  z-index: 10999;
   }
   nav ul li a{
     font-family: 'Raleway', sans-serif;
@@ -291,7 +292,7 @@ body {
 .boxed img{
   width: 300px;
   height: 300px;
-  float: right;
+  float: bottom;
 }
 
 .boxed p{
@@ -300,13 +301,9 @@ body {
   display: inline;
   align-self: flex-start;
 }
-
-
-
-
-
-
-
+.zoom {
+  z-index: 10;
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 body{
   margin:0px;
@@ -357,6 +354,34 @@ input{
   background-size: cover;
 }
 
+
+.img-container img {
+  width: 300px;
+  height: 300px;
+  transition: transform 0.2s;
+}
+
+.img-container img:hover {
+  transform: scale(1.5);
+  z-index: inherit;
+}
+
+.img-container {
+  /* overflow: hidden; */
+  float: center;
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 50px 500px; */
+  padding: 50px 10cm;
+}
+
+
+.img-preview {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 10px;
+}
 
 
 nav{
@@ -940,8 +965,8 @@ color:#d0ff00;
     margin: 0;
   }
   .section{
-    /* padding-top: 4rem;
-    padding-bottom: 3rem; */
+    /* padding-top: 4rem; */
+    padding-bottom: 2rem;
   }
   .section-title{
     margin-bottom: var(--mb-6);
@@ -950,4 +975,62 @@ color:#d0ff00;
     width: 80px;
     top: 3rem;
   }
+}
+
+
+.footer-dark {
+  margin-top: 100px;
+  padding:50px 50px;
+  color:#f0f9ff;
+  background-color:#000000;
+}
+
+.footer-dark h3 {
+  position: relative;
+  text-align: center;
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+  text-align: center;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
 }

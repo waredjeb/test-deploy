@@ -2,6 +2,8 @@ import React from 'react';
 import {Link} from 'react-scroll';
 import cmslogo from '../images/cms-logo.png';
 import cernlogo from '../images/cern-logo.png';
+// import React, { useRef } from 'react'
+
 function NavBar() {
   return (
     <div>
@@ -16,22 +18,22 @@ function NavBar() {
             </label>
             <ul className='menu'>
                 <li>
-                    <Link to='introduction' className='active'>Introduction</Link>
+                    <Link to='introduction' offset={-100} className='active'>Introduction</Link>
                 </li>
                 <li>
-                    <Link to='ticl' className='active'>TICL</Link>
+                    <Link to='ticl' offset={-100} className='active'>TICL</Link>
                 </li>
                 <li>
-                    <Link to='clue3d' className='active'>CLUE3D</Link>
+                    <Link to='clue3d' offset={-100} className='active'>CLUE3D</Link>
                 </li>
                 <li>
-                    <Link to='linking' className='active'>Linking</Link>
+                    <Link to='linking' offset={-100} className='active'>Linking</Link>
                 </li>
                 <li>
-                    <Link to='conclusions' className='active'>Conclusions</Link>
+                    <Link to='conclusions' offset={-100} className='active'>Conclusions</Link>
                 </li>
                 <li>
-                    <Link to='reference' className='active'>Reference</Link>
+                    <Link to='reference' offset={-100} className='active'>Reference</Link>
                 </li>
             </ul>
         </nav>
