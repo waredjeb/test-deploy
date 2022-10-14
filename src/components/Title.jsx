@@ -2,12 +2,8 @@ import React from 'react'
 
 function Title() {
   return (
-    <div className='title'>
-        <div className='bg'></div>
-        <h1>
+    <div className='section-title'>
         HGCal reconstruction with TICL
-        </h1>
-
     </div>
   )
 }
