@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-scroll';
-import cmslogo from '../images/cms-logo.png';
+import acatlogo from '../images/logo-orange-background.png';
 import cernlogo from '../images/cern-logo.png';
 import bmbf from '../images/BMBF.png'
 import rwth from '../images/rwth_logo.png'
@@ -8,17 +8,15 @@ import rwth from '../images/rwth_logo.png'
 function NavBar() {
   return (
     <div>
+            <div className='img-container-logo-acat'>
+                <img src={acatlogo} alt='logo'></img>
+            </div>
         <nav>
-            <Link to='main' className='logo'>
-                 <img src={cmslogo} alt='logo'></img>
-                 <img src={cernlogo} alt='logo2'></img>
-                 <img src={bmbf} alt=''></img>
-                 <img src={rwth} alt=''></img>
-            </Link>
             <input className='menu-btn' type='checkbox' id='menu-btn'></input>
             <label className='menu-icon' for='menu-btn'>
                 <span className='nav-icon'></span>
             </label>
+
             
             <ul className='menu'>
                 <li>

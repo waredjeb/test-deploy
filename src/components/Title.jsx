@@ -3,7 +3,7 @@ import React from 'react'
 function Title() {
   return (
     <div className='section-title'>
-        HGCal reconstruction with TICL
+        The TICL reconstruction at the CMS Phase-2 High Granularity Calorimeter Endcap
     </div>
   )
 }

@@ -1,34 +1,40 @@
 import React from 'react'
-
+import { Link } from 'react-scroll';
+import cmslogo from '../images/cms-logo.png';
+import cernlogo from '../images/cern-logo.png';
+import bmbf from '../images/BMBF.png'
+import rwth from '../images/rwth_logo.png'
 function Footer() {
-  return (
-<body>
-    <div class="footer-dark" id='reference'>
-        <footer>
-            <div class="container">
+    return (
+        <body>
+            <div class="footer-dark" id='reference'>
                 <div class="">
                     <div class="">
                         <h3>Authors</h3>
-                        <ul>    
-                        </ul>
+                        <ul>Marco Rovere<sup>1</sup>, Felice Pantaleo<sup>1</sup>, Abhirikshma Nandi<sup>2</sup>, Alexander Schmidt<sup>3</sup>, Wahid Redjeb<sup>1,2</sup></ul>
+                        <ul>Shamik Ghosh<sup>5</sup>, Alessandro Tarabini<sup>5</sup>,Florian Beaudette<sup>5</sup>,  Alice Savona<sup>2</sup> </ul>
+                        <ul>Benedikt Maier<sup>1</sup>, Soham Bhattacharya<sup>4</sup>, Ankush Reddy Kanuganti<sup>6</sup>, Kenichi Hatakeyama<sup>6</sup></ul>
+
                     </div>
                     <div class="col-sm-6 col-md-3 item">
                         <h3>References</h3>
                         <ul>
-                            <li><a href="#">[1]</a></li>
+                            <li><a href="https://inspirehep.net/literature/1831593">[1] GPU-based Clustering Algorithm for the CMS High Granularity Calorimeter</a></li>
                             <li><a href="#">[2]</a></li>
                             <li><a href="#">[3]</a></li>
                         </ul>
                     </div>
+                    <div className='img-container-logo'>
+                        <img src={cmslogo} alt='logo'></img>
+                        <img src={cernlogo} alt='logo2'></img>
+                        <img src={bmbf} alt=''></img>
+                        <img src={rwth} alt=''></img>
+                    </div>
                 </div>
-                {/* <p class="copyright">Company Name © 2018</p> */}
             </div>
-        </footer>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-</body>
-  )
+
+        </body>
+    )
 }
 
 export default Footer

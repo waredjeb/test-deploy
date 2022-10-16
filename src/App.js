@@ -6,6 +6,7 @@ import TICL from "./components/TICL";
 import CLUE3D from "./components/CLUE3D";
 import Linking from "./components/Linking";
 import Footer from './components/Footer';
+import Test from './components/Test';
 
 
 function App() {
@@ -16,8 +17,10 @@ function App() {
      <Introduction></Introduction>
      <TICL></TICL>
      <CLUE3D></CLUE3D>
-     <Linking></Linking>
+     {/* <Linking></Linking> */}
      <Footer></Footer>
+
+     {/* <Test></Test> */}
      <script src='./index.js'></script>
     </div>
   );
