@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/test-deploy/static/css/main.b73d6865.css",
-    "main.js": "/test-deploy/static/js/main.e4a353d9.js",
+    "main.css": "/test-deploy/static/css/main.d3ad7d4b.css",
+    "main.js": "/test-deploy/static/js/main.53f7a873.js",
     "static/js/787.bf4a7eaf.chunk.js": "/test-deploy/static/js/787.bf4a7eaf.chunk.js",
     "static/media/cms-image-opaque.png": "/test-deploy/static/media/cms-image-opaque.d55db61c036c0a4c78c2.png",
     "static/media/cms-image.jpg": "/test-deploy/static/media/cms-image.58ff96d40c83e9260155.jpg",
     "static/media/logo-orange-background.png": "/test-deploy/static/media/logo-orange-background.a07858a22feafdb0298c.png",
     "static/media/CLUE-procedure.png": "/test-deploy/static/media/CLUE-procedure.9b87fdc2ee22f98afcff.png",
     "static/media/clue3d-nobkg.png": "/test-deploy/static/media/clue3d-nobkg.0d232665ef1f5fe9eb3b.png",
+    "static/media/TimeVSPU_HD.png": "/test-deploy/static/media/TimeVSPU_HD.ddda7a37e88c89be6e03.png",
     "static/media/TICL-nobkg.png": "/test-deploy/static/media/TICL-nobkg.551129fd542a1092e824.png",
+    "static/media/EfficiencyVSPU_HD.png": "/test-deploy/static/media/EfficiencyVSPU_HD.561cde31ad31f9282cf1.png",
+    "static/media/PurityVSPU_HD.png": "/test-deploy/static/media/PurityVSPU_HD.b0c1b3c19e09f622a8ae.png",
     "static/media/dag_trackster.png": "/test-deploy/static/media/dag_trackster.54f9a208ad4b2f1f85a2.png",
     "static/media/lcs.png": "/test-deploy/static/media/lcs.f17530b7a4c8a9d878c1.png",
+    "static/media/merge_vs_distance.png": "/test-deploy/static/media/merge_vs_distance.cb979f094b7a5577e9c6.png",
     "static/media/pur_vs_distance.png": "/test-deploy/static/media/pur_vs_distance.d3ca9d02ce1d0669d4ec.png",
+    "static/media/eff_vs_distance.png": "/test-deploy/static/media/eff_vs_distance.0eb03c1c25a16b4f8cbb.png",
     "static/media/LC.png": "/test-deploy/static/media/LC.259d87a1aa1491334153.png",
     "static/media/BMBF.png": "/test-deploy/static/media/BMBF.e0d8df9877bfd2373b7b.png",
     "static/media/ticlCandidate-nobkg.png": "/test-deploy/static/media/ticlCandidate-nobkg.8d1bc3183ba3886d6778.png",
     "index.html": "/test-deploy/index.html",
-    "main.b73d6865.css.map": "/test-deploy/static/css/main.b73d6865.css.map",
-    "main.e4a353d9.js.map": "/test-deploy/static/js/main.e4a353d9.js.map",
+    "main.d3ad7d4b.css.map": "/test-deploy/static/css/main.d3ad7d4b.css.map",
+    "main.53f7a873.js.map": "/test-deploy/static/js/main.53f7a873.js.map",
     "787.bf4a7eaf.chunk.js.map": "/test-deploy/static/js/787.bf4a7eaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b73d6865.css",
-    "static/js/main.e4a353d9.js"
+    "static/css/main.d3ad7d4b.css",
+    "static/js/main.53f7a873.js"
   ]
 }
