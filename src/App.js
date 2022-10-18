@@ -17,7 +17,7 @@ function App() {
      <Introduction></Introduction>
      <TICL></TICL>
      <CLUE3D></CLUE3D>
-     {/* <Linking></Linking> */}
+     <Linking></Linking>
      <Footer></Footer>
 
      {/* <Test></Test> */}

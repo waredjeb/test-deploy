@@ -16,14 +16,14 @@ function Footer() {
                         <ul>Benedikt Maier<sup>1</sup>, Soham Bhattacharya<sup>4</sup>, Ankush Reddy Kanuganti<sup>6</sup>, Kenichi Hatakeyama<sup>6</sup></ul>
 
                     </div>
-                    <div class="col-sm-6 col-md-3 item">
+                    {/* <div class="col-sm-6 col-md-3 item"> */}
                         <h3>References</h3>
                         <ul>
                             <li><a href="https://inspirehep.net/literature/1831593">[1] GPU-based Clustering Algorithm for the CMS High Granularity Calorimeter</a></li>
-                            <li><a href="#">[2]</a></li>
+                            <li><a href="https://cds.cern.ch/record/2759072/">[2] The Phase-2 Upgrade of the CMS Data Acquisition and High Level Trigger</a></li>
                             <li><a href="#">[3]</a></li>
                         </ul>
-                    </div>
+                    {/* </div> */}
                     <div className='img-container-logo'>
                         <img src={cmslogo} alt='logo'></img>
                         <img src={cernlogo} alt='logo2'></img>
