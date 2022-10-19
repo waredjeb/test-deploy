@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/test-deploy/static/css/main.3b19d8db.css",
-    "main.js": "/test-deploy/static/js/main.57c7ea87.js",
+    "main.css": "/test-deploy/static/css/main.4424e194.css",
+    "main.js": "/test-deploy/static/js/main.de4ede9e.js",
     "static/js/787.bf4a7eaf.chunk.js": "/test-deploy/static/js/787.bf4a7eaf.chunk.js",
     "static/media/cms-image-opaque.png": "/test-deploy/static/media/cms-image-opaque.d55db61c036c0a4c78c2.png",
-    "static/media/cms-image.jpg": "/test-deploy/static/media/cms-image.58ff96d40c83e9260155.jpg",
     "static/media/logo-orange-background.png": "/test-deploy/static/media/logo-orange-background.a07858a22feafdb0298c.png",
+    "static/media/pions0PU200PU_vertical.png": "/test-deploy/static/media/pions0PU200PU_vertical.634fad81fe48ce82003d.png",
     "static/media/CLUE-procedure.png": "/test-deploy/static/media/CLUE-procedure.9b87fdc2ee22f98afcff.png",
+    "static/media/Linking_Visualization.png": "/test-deploy/static/media/Linking_Visualization.06200d84faa2305fe583.png",
+    "static/media/phtons0PU200PU_vertical.png": "/test-deploy/static/media/phtons0PU200PU_vertical.8cf6e359a4dca2c55659.png",
     "static/media/clue3d-nobkg.png": "/test-deploy/static/media/clue3d-nobkg.0d232665ef1f5fe9eb3b.png",
     "static/media/TimeVSPU_HD.png": "/test-deploy/static/media/TimeVSPU_HD.ddda7a37e88c89be6e03.png",
     "static/media/neutral_cand.png": "/test-deploy/static/media/neutral_cand.92b419a7a48579092a9b.png",
@@ -23,12 +25,12 @@
     "static/media/BMBF.png": "/test-deploy/static/media/BMBF.e0d8df9877bfd2373b7b.png",
     "static/media/ticlCandidate-nobkg.png": "/test-deploy/static/media/ticlCandidate-nobkg.8d1bc3183ba3886d6778.png",
     "index.html": "/test-deploy/index.html",
-    "main.3b19d8db.css.map": "/test-deploy/static/css/main.3b19d8db.css.map",
-    "main.57c7ea87.js.map": "/test-deploy/static/js/main.57c7ea87.js.map",
+    "main.4424e194.css.map": "/test-deploy/static/css/main.4424e194.css.map",
+    "main.de4ede9e.js.map": "/test-deploy/static/js/main.de4ede9e.js.map",
     "787.bf4a7eaf.chunk.js.map": "/test-deploy/static/js/787.bf4a7eaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b19d8db.css",
-    "static/js/main.57c7ea87.js"
+    "static/css/main.4424e194.css",
+    "static/js/main.de4ede9e.js"
   ]
 }
