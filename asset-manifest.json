@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-deploy/static/css/main.4424e194.css",
-    "main.js": "/test-deploy/static/js/main.de4ede9e.js",
+    "main.css": "/test-deploy/static/css/main.d00de661.css",
+    "main.js": "/test-deploy/static/js/main.15a429c8.js",
     "static/js/787.bf4a7eaf.chunk.js": "/test-deploy/static/js/787.bf4a7eaf.chunk.js",
     "static/media/cms-image-opaque.png": "/test-deploy/static/media/cms-image-opaque.d55db61c036c0a4c78c2.png",
     "static/media/logo-orange-background.png": "/test-deploy/static/media/logo-orange-background.a07858a22feafdb0298c.png",
@@ -14,8 +14,8 @@
     "static/media/neutral_cand.png": "/test-deploy/static/media/neutral_cand.92b419a7a48579092a9b.png",
     "static/media/charge_cand.png": "/test-deploy/static/media/charge_cand.6a42d74f5e816abe9204.png",
     "static/media/TICL-nobkg.png": "/test-deploy/static/media/TICL-nobkg.551129fd542a1092e824.png",
-    "static/media/EfficiencyVSPU_HD.png": "/test-deploy/static/media/EfficiencyVSPU_HD.561cde31ad31f9282cf1.png",
-    "static/media/PurityVSPU_HD.png": "/test-deploy/static/media/PurityVSPU_HD.b0c1b3c19e09f622a8ae.png",
+    "static/media/EfficiencyVSPU_HD.png": "/test-deploy/static/media/EfficiencyVSPU_HD.f912dd75ee623040e7de.png",
+    "static/media/PurityVSPU_HD.png": "/test-deploy/static/media/PurityVSPU_HD.5971ceaebf12a6971fa5.png",
     "static/media/dag_trackster.png": "/test-deploy/static/media/dag_trackster.54f9a208ad4b2f1f85a2.png",
     "static/media/lcs.png": "/test-deploy/static/media/lcs.f17530b7a4c8a9d878c1.png",
     "static/media/merge_vs_distance.png": "/test-deploy/static/media/merge_vs_distance.cb979f094b7a5577e9c6.png",
@@ -25,12 +25,12 @@
     "static/media/BMBF.png": "/test-deploy/static/media/BMBF.e0d8df9877bfd2373b7b.png",
     "static/media/ticlCandidate-nobkg.png": "/test-deploy/static/media/ticlCandidate-nobkg.8d1bc3183ba3886d6778.png",
     "index.html": "/test-deploy/index.html",
-    "main.4424e194.css.map": "/test-deploy/static/css/main.4424e194.css.map",
-    "main.de4ede9e.js.map": "/test-deploy/static/js/main.de4ede9e.js.map",
+    "main.d00de661.css.map": "/test-deploy/static/css/main.d00de661.css.map",
+    "main.15a429c8.js.map": "/test-deploy/static/js/main.15a429c8.js.map",
     "787.bf4a7eaf.chunk.js.map": "/test-deploy/static/js/787.bf4a7eaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4424e194.css",
-    "static/js/main.de4ede9e.js"
+    "static/css/main.d00de661.css",
+    "static/js/main.15a429c8.js"
   ]
 }
