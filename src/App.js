@@ -7,6 +7,7 @@ import CLUE3D from "./components/CLUE3D";
 import Linking from "./components/Linking";
 import Footer from './components/Footer';
 import Test from './components/Test';
+import Conclusions from './components/Conclusions';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
      <TICL></TICL>
      <CLUE3D></CLUE3D>
      <Linking></Linking>
+     <Conclusions></Conclusions>
      <Footer></Footer>
 
      {/* <Test></Test> */}

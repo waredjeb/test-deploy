@@ -24,7 +24,7 @@ function TICL() {
         <div>
           <div>
             <p class="about__text">
-              <b>TICL</b> (<b>T</b>he <b>I</b>terative <b>CL</b>stering) is a <b>modular</b> framework developed within the CMS software (CMSSW), and it is
+              <b>TICL</b> (<b>T</b>he <b>I</b>terative <b>CL</b>ustering) is a <b>modular</b> framework developed within the CMS software (CMSSW), and it is
               the candidate for the new Particle Flow (PF) framework for the CMS Phase-2 reconstruction.
               {/* TICL has been developed to identify particles and reconstruct their properties, starting from the rechits left by the particles interaction, up to the Particle Flow reconstruction and interpretation. <br></br>
                 All the TICL's modules are designed such that new algorithms or techniques (e.g. Machine Learning) can be plugged in easily, providing a fertile ground
@@ -32,8 +32,8 @@ function TICL() {
             </p>
           </div>
         </div>
-        <div class="about__img">
-          <img src={ticl} alt=""></img>
+        <div class="">
+          <img src={ticl} className="merged-link" alt=""></img>
         </div>
         <h2>
           <u>TICL</u>&nbsp; <u>Components</u>
@@ -44,7 +44,7 @@ function TICL() {
               <h3>
                 <u>CLUE</u>&nbsp; - &nbsp;<u>Layer</u> &nbsp;<u>Clusters</u>
               </h3>
-              <b>CLUE<sup>[1]</sup></b> (Clustering of Energy) is an energy-density based clustering for clustering rechits, on each HGCAL layers, and produce
+              <b>CLUE<sup><a href="#ref1">[2]</a></sup></b> (Clustering of Energy) is an energy-density based clustering for clustering rechits, on each HGCAL layers, and produce
               2D clusters (Layer Clusters)
               <ul>
                 <li>Energy density based</li>
@@ -56,16 +56,20 @@ function TICL() {
               </ul>
             </p>
           </div>
-          <div class="work__img">
+          <div class="">
             {/* <figure> */}
-            <img src={lcs} alt=""></img>
+            <img src={lcs} className="" alt=""></img>
             <figcaption><b>Figure</b>: Example of two Layer Clusters built by CLUE</figcaption>
-
-            <img src={clue} className = 'clue-img' alt=""></img>
-            <figcaption><b>Figure</b>: Example of two Layer Clusters built by CLUE</figcaption>
-            {/* </figure> */}
           </div>
+        
         </div >
+        <br></br>
+        < div class="work__container " >
+          <image>
+        <img src={clue} className = 'clue-img' alt=""></img>
+            <figcaption><b>Figure</b>: CLUE: Clustering producedure</figcaption>
+            </image>            
+        </div>
         <hr></hr>
         <div class="work__container bd-grid">
           <div>
@@ -82,9 +86,9 @@ function TICL() {
               </ul>
             </p>
           </div>
-          <div class="about__img">
+          <div class="">
             <figure>
-              <img src={trackster} alt=""></img>
+              <img src={trackster} className="merged-link2" alt=""></img>
               <figcaption><b>Figure</b> :400 GeV Photon Trackster, each disk corresponds to a Layer Cluster</figcaption>
             </figure>
           </div>

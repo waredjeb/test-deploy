@@ -10,6 +10,9 @@ import time from '../images/TimeVSPU_HD.png'
 
 import chargedCand from '../images/charge_cand.png'
 import neutralCand from '../images/neutral_cand.png'
+import photons from '../images/phtons0PU200PU_vertical.png'
+import pions from '../images/pions0PU200PU_vertical.png'
+import linking from '../images/Linking_Visualization.png'
 
 
 function Linking() {
@@ -46,8 +49,19 @@ function Linking() {
           <div class="work__container bd-grid">
             <div>
               <p class='about__text'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nostrum expedita consectetur, omnis possimus dolor tempore. Numquam praesentium unde explicabo libero autem nisi eveniet, repudiandae minima voluptate maiores cum fugiat?
+                <ul>
+                  <li>Propagate Tracks to the first and to the last CE-E HGCAL layers</li>
+                  <li>Propagate Tracksters to the first and to the last CE-E HGCAL layers</li>
+                  <li>Geometric compatibility between Tracks and Tracksters at the first or last CE-E layer</li>
+                  <li>Geometric compatibility between Tracksters at the last CE-E layer</li>
+                  <li>Tracks without linked Tracksters are directly promoted to charged candidates</li>
+                  <li>Depth First Search (DFS) approach</li>
+
+                </ul>
+                <br></br>
+                Once a geometrical link is found, <b>Energy </b> and <b>Time</b> compatibility are performed. Linked Tracksters are added in the same final collection of <b>TICLCandidate</b>, as well as the eventual associated Track
               </p>
+              <br></br>
             </div>
             <div class="about__img">
               {/* <hr></hr> */}
@@ -69,14 +83,20 @@ function Linking() {
           <div class="work__container bd-grid">
             <div>
               <p class='about__text'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nostrum expedita consectetur, omnis possimus dolor tempore. Numquam praesentium unde explicabo libero autem nisi eveniet, repudiandae minima voluptate maiores cum fugiat?
+                For neutral candidate the Track linking is not performed
+                <ul>
+                  <li>Propagate Tracksters to the first and to the last CE-E HGCAL layers</li>
+                  <li>Geometric compatibility between Tracksters at the last CE-E layer</li>
+                  <li>Trackster without links are directly promoted to neutral candidates</li>
+                  <li>Depth First Search (DFS) approach</li>
+                </ul>
               </p>
             </div>
-            <div class="about__img">
+            <div class="">
               {/* <hr></hr> */}
               <div class="row">
                 <div class="column">
-                  <img src={neutralCand} alt=""></img>
+                  <img src={neutralCand} className="" alt=""></img>
                 </div>
                 {/* <div class="column">
                   <img src={eff} alt=""></img>
@@ -85,6 +105,20 @@ function Linking() {
             </div>
           </div>
           <hr></hr>
+          <div class="work__container_alone">
+            <div class="">
+              {/* <hr></hr> */}
+              <div class="row">
+                <div class="column">
+                  <img src={linking} className = 'merged-link' alt=""></img>
+                  <figcaption><b>Fireworks event visualization</b>: CLUE3D Tracksters (left) Merged Tracksters obtained by the Linking procedure (Right)</figcaption>
+                </div>
+                {/* <div class="column">
+                  <img src={eff} alt=""></img>
+                </div> */}
+              </div>
+            </div>
+          </div>
           <div>
             <br></br>
             <h2>
@@ -92,33 +126,61 @@ function Linking() {
             </h2>
             <center>
               <p>
-                Timing performance obtained executing the reconstruction on Single core CPU, on a pileup 200 sample
+                Physics performance have been evaluated on Electromagnetic and Hadronic objects at 0 and 200 pileup.
               </p>
             </center>
           </div>
+          <h3>
+            Photon reconstruction
+          </h3>
           <div class="work__container bd-grid">
+
             <p class='about__text'>
               <ul>
-                <li>CLUE3D <b>scales better</b> than the CA</li>
-                <ul>
-                  Almost 1.8 faster at 200 PU!
+                <li><b>Excellent performance</b> in reconstructing electromagnetic objects</li>
+                <li>For the whole energy range and calorimeter coverage</li>
+                <li><b>Small impact of pileup</b> on the reconstruction efficiency</li>
                 </ul>
-                <li>CLUE3D takes <b>only 1% of the current CMS offline reconstruction</b></li>
-                <li>CLUE is already ported on GPU</li>
-                <ul>
-                  <li>CLUE3D has been developed with <b>heterogeneous computing in mind</b></li>
-                  <li>CLUE3D version on GPU expected very soon</li>
-                  <li>Offloading the computation on the GPU will improve timing performance</li>
-                </ul>
-              </ul>
             </p>
-            <div class="about__img">
+            <div class="">
               <div class="row">
-                <div class="column1">
-                  <img src={time} className="timing" alt=""></img>
+                <div class="column">
+                  <img src={photons} className="merged" alt=""></img>
                 </div>
               </div>
             </div>
+          </div>
+
+          <h3>
+            Pion reconstruction
+          </h3>
+          <div class="work__container bd-grid">
+
+            <p class='about__text'>
+              <ul>
+                <li><b>Excellent performance</b> in 0PU</li>
+                <li>Small efficiency drop at low energies</li>
+                <li>Big impact of pileup on the reconstruction efficiency</li>
+                <ul>
+                <li>Especially in the high &eta; region, where the detector occupancy is much higher</li>
+                </ul>
+                </ul>
+            </p>
+            <div class="">
+              <div class="row">
+                <div class="column">
+                  <img src={pions} className="merged" alt=""></img>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="work__container_alone">
+
+            <p class='about__text'>
+                Good performance in reconstructing electromagnetic and hadronic objects in 0 pileup. The linking algorithm requires some improvements, especially for dealing with high pileup. 
+                <b> Machine Learning </b> methods, in particular <b>Graph Neural Networks</b>  can be exploited for this task, and they are currently under study and development.
+            </p>
           </div>
 
         </div>

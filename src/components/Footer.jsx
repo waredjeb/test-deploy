@@ -19,9 +19,9 @@ function Footer() {
                     {/* <div class="col-sm-6 col-md-3 item"> */}
                         <h3>References</h3>
                         <ul>
-                            <li><a href="https://inspirehep.net/literature/1831593">[1] GPU-based Clustering Algorithm for the CMS High Granularity Calorimeter</a></li>
-                            <li><a href="https://cds.cern.ch/record/2759072/">[2] The Phase-2 Upgrade of the CMS Data Acquisition and High Level Trigger</a></li>
-                            <li><a href="#">[3]</a></li>
+                            <li id='ref1'><a href="https://github.com/cms-sw/cmssw">[1] CMS Software</a></li>
+                            <li id='ref2'><a href="https://inspirehep.net/literature/1831593">[2] GPU-based Clustering Algorithm for the CMS High Granularity Calorimeter</a></li>
+                            <li id='ref3'><a href="https://cds.cern.ch/record/2759072/">[3] The Phase-2 Upgrade of the CMS Data Acquisition and High Level Trigger</a></li>
                         </ul>
                     {/* </div> */}
                     <div className='img-container-logo'>

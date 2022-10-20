@@ -28,7 +28,7 @@ function CLUE3D() {
         <div>
         <center>
           <p class='about__text'>
-            Physics Performance compared to the previous Pattern Recognition Algorithm (Cellular Automaton (CA))<sup>[2]</sup><br></br><br></br>
+            Physics Performance compared to the previous Pattern Recognition Algorithm (Cellular Automaton (CA))<sup><a href="#ref2">[3]</a></sup><br></br><br></br>
           </p>
           </center>
         </div>
@@ -53,10 +53,10 @@ function CLUE3D() {
             {/* <hr></hr> */}
             <div class="row">
               <div class="column">
-                <img src={purity} alt=""></img>
+                <img src={purity} className='img0' alt=""></img>
               </div>
               <div class="column">
-                <img src={eff} alt=""></img>
+                <img src={eff} className='img0'alt=""></img>
               </div>
             </div>
           </div>
@@ -81,10 +81,10 @@ function CLUE3D() {
             {/* <hr></hr> */}
             <div class="row">
               <div class="column">
-                <img src={purity200} alt=""></img>
+                <img src={purity200} class='img1' alt=""></img>
               </div>
               <div class="column">
-                <img src={eff200} alt=""></img>
+                <img src={eff200} class='img1' alt=""></img>
               </div>
             </div>
           </div>
