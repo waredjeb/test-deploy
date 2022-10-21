@@ -6,7 +6,6 @@ import TICL from "./components/TICL";
 import CLUE3D from "./components/CLUE3D";
 import Linking from "./components/Linking";
 import Footer from './components/Footer';
-import Test from './components/Test';
 import Conclusions from './components/Conclusions';
 
 
