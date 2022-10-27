@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-deploy/static/css/main.d661d891.css",
-    "main.js": "/test-deploy/static/js/main.034c5729.js",
+    "main.css": "/test-deploy/static/css/main.3cd66843.css",
+    "main.js": "/test-deploy/static/js/main.c8d05968.js",
     "static/js/787.bf4a7eaf.chunk.js": "/test-deploy/static/js/787.bf4a7eaf.chunk.js",
     "static/media/cms-image-opaque.png": "/test-deploy/static/media/cms-image-opaque.d55db61c036c0a4c78c2.png",
     "static/media/logo-orange-background.png": "/test-deploy/static/media/logo-orange-background.a07858a22feafdb0298c.png",
@@ -25,12 +25,12 @@
     "static/media/BMBF.png": "/test-deploy/static/media/BMBF.e0d8df9877bfd2373b7b.png",
     "static/media/ticlCandidate-nobkg.png": "/test-deploy/static/media/ticlCandidate-nobkg.8d1bc3183ba3886d6778.png",
     "index.html": "/test-deploy/index.html",
-    "main.d661d891.css.map": "/test-deploy/static/css/main.d661d891.css.map",
-    "main.034c5729.js.map": "/test-deploy/static/js/main.034c5729.js.map",
+    "main.3cd66843.css.map": "/test-deploy/static/css/main.3cd66843.css.map",
+    "main.c8d05968.js.map": "/test-deploy/static/js/main.c8d05968.js.map",
     "787.bf4a7eaf.chunk.js.map": "/test-deploy/static/js/787.bf4a7eaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d661d891.css",
-    "static/js/main.034c5729.js"
+    "static/css/main.3cd66843.css",
+    "static/js/main.c8d05968.js"
   ]
 }
